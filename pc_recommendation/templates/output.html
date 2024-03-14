@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>PC Recommendation</title>
+  </head>
+  <body>
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="/">PC Recommendation</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="/">Chatbot</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="/form">Manual Form</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+      </header>
+      <div class="container h-75">
+        <div class="row align-items-center h-100">
+            <div class="col-md-10 col-sm-12 mx-auto">
+                <div class="h-100 justify-content-center">
+                    <h1 class="my-5">Top 3 Recommended Builds</h1>
+                    <h3 class="mt-4 mb-2">Build 1</h3>
+                    <table class="table table-hover">
+                        <thead>
+                          <tr>
+                            <th scope="col">Component</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Cost</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">CPU</th>
+                            <td>{{ build1.sel_cpu.name }}</td>
+                            <td>{{ build1.sel_cpu.price_usd }}$</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Motherboard</th>
+                            <td>{{ build1.sel_mobo.name }}</td>
+                            <td>{{ build1.sel_mobo.price_usd }}$</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Graphics Card</th>
+                            <td>{{ build1.sel_gpu.full_name }}</td>
+                            <td>{{ build1.sel_gpu.price_usd }}$</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Memory</th>
+                            <td>{{ build1.sel_mem.full_name }}</td>
+                            <td>{{ build1.sel_mem.price_usd }}$</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Storage</th>
+                            <td>{{ build1.sel_storage.full_name }}</td>
+                            <td>{{ build1.sel_storage.price_usd }}$</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Cooler</th>
+                            <td>{{ build1.sel_cooler.name }}</td>
+                            <td>{{ build1.sel_cooler.price_usd }}$</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Power Supply</th>
+                            <td>{{ build1.sel_psu.full_name }}</td>
+                            <td>{{ build1.sel_psu.price_usd }}$</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Case</th>
+                            <td>{{ build1.sel_case.name }}</td>
+                            <td>{{ build1.sel_case.price_usd }}$</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Total Cost</th>
+                            <td colspan="2" class="text-right"><strong>{{ build1.totalCost() }}$</strong></td>
+                          </tr>
+                        </tbody>
+                    </table>
+                    <h3 class="mt-5 mb-2">Build 2</h3>
+                    <table class="table table-hover">
+                        <thead>
+                          <tr>
+                            <th scope="col">Component</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Cost</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">CPU</th>
+                            <td>{{ build2.sel_cpu.name }}</td>
+                            <td>{{ build2.sel_cpu.price_usd }}$</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Motherboard</th>
+                            <td>{{ build2.sel_mobo.name }}</td>
+                            <td>{{ build2.sel_mobo.price_usd }}$</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Graphics Card</th>
+                            <td>{{ build2.sel_gpu.full_name }}</td>
+                            <td>{{ build2.sel_gpu.price_usd }}$</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Memory</th>
+                            <td>{{ build2.sel_mem.full_name }}</td>
+                            <td>{{ build2.sel_mem.price_usd }}$</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Storage</th>
+                            <td>{{ build2.sel_storage.full_name }}</td>
+                            <td>{{ build2.sel_storage.price_usd }}$</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Cooler</th>
+                            <td>{{ build2.sel_cooler.name }}</td>
+                            <td>{{ build2.sel_cooler.price_usd }}$</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Power Supply</th>
+                            <td>{{ build2.sel_psu.full_name }}</td>
+                            <td>{{ build2.sel_psu.price_usd }}$</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Case</th>
+                            <td>{{ build2.sel_case.name }}</td>
+                            <td>{{ build2.sel_case.price_usd }}$</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Total Cost</th>
+                            <td colspan="2" class="text-right"><strong>{{ build2.totalCost() }}$</strong></td>
+                          </tr>
+                        </tbody>
+                    </table>
+                    <h3 class="mt-5 mb-2">Build 3</h3>
+                    <table class="table table-hover">
+                        <thead>
+                          <tr>
+                            <th scope="col">Component</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Cost</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">CPU</th>
+                            <td>{{ build3.sel_cpu.name }}</td>
+                            <td>{{ build3.sel_cpu.price_usd }}$</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Motherboard</th>
+                            <td>{{ build3.sel_mobo.name }}</td>
+                            <td>{{ build3.sel_mobo.price_usd }}$</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Graphics Card</th>
+                            <td>{{ build3.sel_gpu.full_name }}</td>
+                            <td>{{ build3.sel_gpu.price_usd }}$</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Memory</th>
+                            <td>{{ build3.sel_mem.full_name }}</td>
+                            <td>{{ build3.sel_mem.price_usd }}$</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Storage</th>
+                            <td>{{ build3.sel_storage.full_name }}</td>
+                            <td>{{ build3.sel_storage.price_usd }}$</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Cooler</th>
+                            <td>{{ build3.sel_cooler.name }}</td>
+                            <td>{{ build3.sel_cooler.price_usd }}$</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Power Supply</th>
+                            <td>{{ build3.sel_psu.full_name }}</td>
+                            <td>{{ build3.sel_psu.price_usd }}$</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Case</th>
+                            <td>{{ build3.sel_case.name }}</td>
+                            <td>{{ build3.sel_case.price_usd }}$</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Total Cost</th>
+                            <td colspan="2" class="text-right"><strong>{{ build3.totalCost() }}$</strong></td>
+                          </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js"></script>
+    <script src="{{ url_for('static', filename='custom.js')}}"></script>
+  </body>
+</html>

@@ -1,0 +1,67 @@
+name,rating,rating_count,price_usd,fan_rpm,noise_level,color,radiator_size,type,heat_sink_height,socket,perf_tier
+Cooler Master Hyper 212 EVO,4,1421,24.99,600 - 2000 RPM,9 - 36 dB,,,Air,159.0,"['AM4', 'LGA1151', 'LGA1200']",6
+Cooler Master Hyper 212 RGB Black Edition,4,175,44.99,650 - 2000 RPM,8 - 30 dB,Black,,Air,158.8,"['AM4', 'LGA1151', 'LGA1200']",6
+Cooler Master MASTERLIQUID ML240L RGB V2,4,40,61.5,650 - 1800 RPM,6 - 27 dB,Black,240 mm,Water,,"['AM4', 'LGA1151']",4
+NZXT Kraken X53,4,59,119.99,500 - 2000 RPM,21 - 36 dB,Black,240 mm,Water,,"['AM4', 'LGA1151', 'LGA1200']",3
+Corsair iCUE H150i ELITE CAPELLIX,4,34,174.99,2400 RPM,10 - 37 dB,Black,360 mm,Water,,"['AM4', 'LGA1151', 'LGA1200']",1
+NZXT Kraken Z73,4,47,252.0,500 - 1800 RPM,21 - 36 dB,Black,360 mm,Water,,"['AM4', 'LGA1151', 'LGA1200']",1
+Cooler Master Hyper 212 Black Edition,4,149,30.99,650 - 2000 RPM,6.5 - 26 dB,Black,,Air,158.8,"['AM4', 'LGA1151', 'LGA1200']",6
+Corsair iCUE H100i ELITE CAPELLIX,4,25,137.99,2400 RPM,10 - 37 dB,Black,240 mm,Water,,"['AM4', 'LGA1151', 'LGA1200']",2
+Noctua NH-D15 CHROMAX.BLACK,4,118,109.95,300 - 1500 RPM,19.2 - 24.6 dB,Black,,Air,165.0,"['AM4', 'LGA1151', 'LGA1200']",2
+Corsair H100i RGB PLATINUM SE,4,124,149.99,2200 RPM,36 dB,White,240 mm,Water,,"['AM4', 'LGA1151', 'LGA1200']",2
+NZXT Kraken X63,4,78,134.22,500 - 2000 RPM,21 - 38 dB,Black,280 mm,Water,,"['AM4', 'LGA1151', 'LGA1200']",2
+be quiet! Dark Rock Pro 4,4,126,86.27,1500 RPM,12.8 - 24.3 dB,Black,,Air,163.0,"['AM4', 'LGA1151', 'LGA1200']",4
+Noctua NH-D15,4,135,99.95,300 - 1500 RPM,19.2 - 24.6 dB,,,Air,165.0,"['AM4', 'LGA1151', 'LGA1200']",3
+NZXT Kraken Z63,4,35,244.99,500 - 1800 RPM,21 - 38 dB,Black,280 mm,Water,,"['AM4', 'LGA1151', 'LGA1200']",2
+Corsair iCUE H100i RGB PRO XT,4,44,109.99,2400 RPM,37 dB,Black,240 mm,Water,,"['AM4', 'LGA1151', 'LGA1200']",2
+Noctua NH-U12S chromax.black,4,89,79.95,300 - 1500 RPM,18.6 - 22.4 dB,Black,,Air,158.0,"['AM4', 'LGA1151', 'LGA1200']",6
+Thermaltake UX100,4,10,19.98,1800 RPM,26.92 dB,Black,,Air,66.1,"['AM4', 'LGA1151', 'LGA1200']",10
+NZXT Kraken X73,4,31,159.94,500 - 2000 RPM,21 - 36 dB,Black,360 mm,Water,,"['AM4', 'LGA1151', 'LGA1200']",1
+NZXT Kraken M22,4,39,79.98,500 - 2000 RPM,21 - 36 dB,Black,120 mm,Water,,"['AM4', 'LGA1151', 'LGA1200']",6
+MSI MAG CORE LIQUID 240R,4,31,90.46,500 - 2000 RPM,14.3 - 34.3 dB,Black,240 mm,Water,,['LGA1200'],2
+be quiet! Dark Rock 4,4,74,69.9,1400 RPM,,Black,,Air,159.0,"['AM4', 'LGA1151', 'LGA1200']",6
+ARCTIC Liquid Freezer II 240,4,36,87.99,200 - 1800 RPM,,Black,240 mm,Water,,"['AM4', 'LGA1151', 'LGA1200']",2
+Noctua NH-L9i,4,83,44.95,600 - 2500 RPM,14.8 - 23.6 dB,,,Air,37.0,"['LGA1151', 'LGA1200']",10
+Lian Li GALAHAD AIO 360 RGB,4,11,147.5,800 - 1900 RPM,,White / Silver,360 mm,Water,,"['AM4', 'LGA1151', 'LGA1200']",1
+Corsair H100x,4,11,84.99,1700 RPM,37 dB,Black,240 mm,Water,,"['LGA1151', 'LGA1200']",2
+Cooler Master MasterLiquid ML240L RGB,4,106,66.99,650 - 2000 RPM,6 - 30 dB,,240 mm,Water,,"['AM4', 'LGA1151', 'LGA1200']",4
+ARCTIC Freezer 34 eSports DUO,4,47,44.99,200 - 2100 RPM,24.4 dB,White / Black,,Air,157.0,"['AM4', 'LGA1151', 'LGA1200']",6
+Scythe FUMA 2,4,53,59.99,300 - 1200 RPM,2.7 - 24.9 dB,Black / Silver,,Air,154.5,"['AM4', 'LGA1200']",4
+Noctua NH-U12S,4,86,69.94,300 - 1500 RPM,18.6 - 22.4 dB,,,Air,158.0,"['AM4', 'LGA1151', 'LGA1200']",6
+ARCTIC Liquid Freezer II 360,4,22,134.99,800 - 2000 RPM,,Black,360 mm,Water,,"['AM4', 'LGA1151', 'LGA1200']",1
+Noctua NH-L9i chromax.black,4,8,54.95,600 - 2500 RPM,14.8 - 23.6 dB,Black,,Air,37.0,"['LGA1151', 'LGA1200']",10
+Corsair H100i RGB PLATINUM,4,115,231.54,2400 RPM,37 dB,Black / Silver,240 mm,Water,,"['AM4', 'LGA1151', 'LGA1200']",2
+ARCTIC Liquid Freezer II 280,4,20,111.76,200 - 1700 RPM,,Black,280 mm,Water,,"['AM4', 'LGA1151', 'LGA1200']",2
+Scythe Mugen 5 Rev. B,4,42,49.99,300 - 1200 RPM,4 - 24.9 dB,Silver / Black,,Air,154.5,"['AM4', 'LGA1151', 'LGA1200']",5
+Vetroo V5,4,4,29.99,800 - 1700 RPM,30.8 dB,Black,,Air,148.0,"['AM4', 'LGA1151', 'LGA1200']",8
+Noctua NH-D15S chromax.black,4,16,99.95,300 - 1500 RPM,19.2 - 24.6 dB,Black,,Air,160.0,"['AM4', 'LGA1151', 'LGA1200']",4
+be quiet! Pure Rock 2 Black,4,14,44.9,1500 RPM,19.1 - 26.8 dB,Black,,Air,155.0,"['AM4', 'LGA1151', 'LGA1200']",8
+Corsair H150i PRO,4,90,289.99,1600 RPM,25 dB,,360 mm,Water,,"['AM4', 'LGA1151', 'LGA1200']",2
+be quiet! Pure Rock Slim,4,38,82.36,2000 RPM,13.1 - 25.4 dB,,,Air,159.0,"['AM4', 'LGA1151', 'LGA1200']",8
+Corsair H115i RGB PLATINUM,4,52,119.99,2000 RPM,37 dB,Black / Silver,280 mm,Water,,"['AM4', 'LGA1151', 'LGA1200']",2
+Cooler Master MasterLiquid ML360R RGB,4,32,120.0,650 - 2000 RPM,6 - 34 dB,Black,360 mm,Water,,"['AM4', 'LGA1151', 'LGA1200']",1
+Noctua NH-U12S redux,5,2,49.95,450 - 1700 RPM,25.1 dB,Gray / Silver,,Air,158.0,"['AM4', 'LGA1151', 'LGA1200']",6
+Deepcool GAMMAXX 400 Blue,4,18,24.99,900 - 1500 RPM,17.8 - 30 dB,Blue / Silver,,Air,154.5,"['AM4', 'LGA1151', 'LGA1200']",7
+Noctua NH-U12A,4,35,109.95,450 - 2000 RPM,18.8 - 22.6 dB,Brown,,Air,158.0,"['AM4', 'LGA1151', 'LGA1200']",4
+Noctua NH-U9S chromax.black,5,8,69.95,400 - 2000 RPM,16.3 - 22.8 dB,Black,,Air,125.0,"['AM4', 'LGA1151', 'LGA1200']",8
+Corsair H60 (2018),4,47,79.88,1700 RPM,28.3 dB,Black,120 mm,Water,,"['AM4', 'LGA1151', 'LGA1200']",5
+Lian Li GALAHAD AIO 360 RGB,4,8,159.99,800 - 1900 RPM,,Black / Silver,360 mm,Water,,"['AM4', 'LGA1151', 'LGA1200']",1
+Cooler Master MasterLiquid ML120L RGB,4,31,34.99,650 - 2000 RPM,6 - 30 dB,,120 mm,Water,,"['AM4', 'LGA1151', 'LGA1200']",6
+NZXT Kraken X52 Rev 2,4,65,118.29,500 - 2000 RPM,21 - 36 dB,,240 mm,Water,,"['AM4', 'LGA1151', 'LGA1200']",3
+Deepcool CASTLE 360EX,4,28,135.99,500 - 1800 RPM,32.1 dB,Black,360 mm,Water,,"['AM4', 'LGA1151', 'LGA1200']",2
+Corsair H60,4,250,69.99,2000 RPM,30.85 dB,,120 mm,Water,,"['AM4', 'LGA1151', 'LGA1200']",5
+EK EK-AIO 240 D-RGB,4,16,119.99,450 - 2600 RPM,36.4 dB,Black,240 mm,Water,,"['AM4', 'LGA1151', 'LGA1200']",2
+be quiet! Pure Rock 2,4,4,39.9,1500 RPM,19.1 - 26.8 dB,Silver / Black,,Air,155.0,"['AM4', 'LGA1151', 'LGA1200']",8
+ID-COOLING SE-224-XT,4,6,29.99,700 - 1800 RPM,15.2 - 32.5 dB,White,,Air,154.0,"['AM4', 'LGA1151', 'LGA1200']",6
+ARCTIC Freezer 34 eSports DUO,4,13,44.99,200 - 2100 RPM,24.4 dB,Red / Black,,Air,157.0,"['AM4', 'LGA1151', 'LGA1200']",6
+Corsair iCUE H115i RGB Pro XT,4,14,131.99,2200 RPM,36 dB,Black,280 mm,Water,,"['AM4', 'LGA1151', 'LGA1200']",2
+ID-COOLING SE-224-XT,5,9,29.99,700 - 1800 RPM,15.2 - 32.5 dB,Black,,Air,154.0,"['AM4', 'LGA1151', 'LGA1200']",6
+Lian Li GALAHAD AIO 240 RGB,4,8,116.42,800 - 1900 RPM,,Black / Silver,240 mm,Water,,"['AM4', 'LGA1151', 'LGA1200']",3
+Noctua NH-L9a-AM4,4,43,44.95,600 - 2500 RPM,14.8 - 23.6 dB,Brown,,Air,37.0,['AM4'],10
+Noctua NH-L9a-AM4 chromax.black,4,21,54.95,600 - 2500 RPM,14.8 - 23.6 dB,Black,,Air,37.0,['AM4'],10
+Noctua NH-U9S,4,60,59.95,400 - 2000 RPM,16.3 - 22.8 dB,,,Air,125.0,"['AM4', 'LGA1151', 'LGA1200']",8
+ARCTIC Liquid Freezer II 420,4,5,142.97,200 - 1700 RPM,,Black,420 mm,Water,,"['AM4', 'LGA1151', 'LGA1200']",1
+EK EK-AIO 360 D-RGB,4,20,154.99,450 - 2600 RPM,36.4 dB,Black,360 mm,Water,,"['AM4', 'LGA1151', 'LGA1200']",1
+Noctua NH-D15S,4,78,89.95,300 - 1500 RPM,19.2 - 24.6 dB,,,Air,160.0,"['AM4', 'LGA1151', 'LGA1200']",4
+EVGA CLC 280,4,33,90.0,600 - 2200 RPM,16 - 39.5 dB,,280 mm,Water,,"['AM4', 'LGA1151', 'LGA1200']",2
+CRYORIG H7,4,265,53.99,330 - 1600 RPM,25 dB,,,Air,145.0,"['AM4', 'LGA1151', 'LGA1200']",7

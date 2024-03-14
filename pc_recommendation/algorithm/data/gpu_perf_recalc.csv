@@ -1,0 +1,17 @@
+chipset,tdp,relative_performance,manufacturer
+GeForce GTX 1650 G5,75,28.71,Nvidia
+GeForce GTX 1650 SUPER,100,35.75,Nvidia
+GeForce GTX 1660,120,39.27,Nvidia
+GeForce GTX 1660 SUPER,125,42.37,Nvidia
+GeForce GTX 1660 Ti,120,43.01,Nvidia
+GeForce RTX 2060,160,45.36,Nvidia
+GeForce RTX 2070 SUPER,175,55.92,Nvidia
+GeForce RTX 2080 Ti,250,71.61,Nvidia
+GeForce RTX 3060,170,54.32,Nvidia
+GeForce RTX 3070,220,66.49,Nvidia
+GeForce RTX 3070 Ti,290,73.11,Nvidia
+GeForce RTX 3080,320,82.92,Nvidia
+GeForce RTX 3080 Ti,350,100,Nvidia
+GeForce RTX 3090,350,87.94,Nvidia
+Radeon RX 6700 XT,230,72.25,AMD
+Radeon RX 6800 XT,300,91.68,AMD

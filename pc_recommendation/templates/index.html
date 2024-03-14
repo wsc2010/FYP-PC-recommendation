@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>PC Recommendation</title>
+  </head>
+  <body>
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="/">PC Recommendation</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="/">Chatbot</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/form">Manual Form</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+      </header>
+      <div class="container h-100">
+        <div class="row align-items-center h-100">
+            <div class="col-md-8 col-sm-12 mx-auto">
+                <div class="h-100 justify-content-center">
+                    <div class="chat-container" style="overflow: auto; max-height: 80vh">
+                        <!-- chat messages -->
+                        <div class="chat-message col-md-5 offset-md-7 bot-message">
+                          Welcome to PC recommendation portal. How can I help you?
+                        </div>
+                    </div>
+                    <form id="target">
+                       <input class="input" type="text" value="" placeholder="Enter message..." id="input_message"/>
+                       <input type="submit" hidden>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js"></script>
+    <script src="{{ url_for('static', filename='custom.js')}}"></script>
+  </body>
+</html>
